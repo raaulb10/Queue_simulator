@@ -1,0 +1,52 @@
+Time 0
+Waiting clients :(0, 1, 2);(3, 1, 2);(9, 1, 3);(1, 2, 2);(2, 2, 2);(8, 2, 2);(4, 3, 2);(7, 3, 2);(5, 4, 2);(6, 4, 3);
+Queue 1: Queue is closed! 
+Queue 2: Queue is closed! 
+Queue 3: Queue is closed! 
+
+Time 1
+Waiting clients :(1, 2, 2);(2, 2, 2);(8, 2, 2);(4, 3, 2);(7, 3, 2);(5, 4, 2);(6, 4, 3);
+Queue 1: (0, 1, 1);
+Queue 2: (3, 1, 1);
+Queue 3: (9, 1, 2);
+
+Time 2
+Waiting clients :(4, 3, 2);(7, 3, 2);(5, 4, 2);(6, 4, 3);
+Queue 1: (1, 2, 1);
+Queue 2: (2, 2, 1);
+Queue 3: (9, 1, 1);(8, 2, 2);
+
+Time 3
+Waiting clients :(5, 4, 2);(6, 4, 3);
+Queue 1: (4, 3, 1);
+Queue 2: (7, 3, 1);
+Queue 3: (8, 2, 1);
+
+Time 4
+Waiting clients :
+Queue 1: (5, 4, 1);(6, 4, 3);
+Queue 2: Queue is closed! 
+Queue 3: Queue is closed! 
+
+Time 5
+Waiting clients :
+Queue 1: (6, 4, 2);
+Queue 2: Queue is closed! 
+Queue 3: Queue is closed! 
+
+Time 6
+Waiting clients :
+Queue 1: (6, 4, 1);
+Queue 2: Queue is closed! 
+Queue 3: Queue is closed! 
+
+Time 7
+Waiting clients :
+Queue 1: Queue is closed! 
+Queue 2: Queue is closed! 
+Queue 3: Queue is closed! 
+
+
+Average waiting time: 4.5
+Average processing time: 2.2
+Peak time: 2 with 4 clients.
